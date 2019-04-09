@@ -1,0 +1,34 @@
+
+.vagrant/machines/default/virtualbox/action_provision
+# composer
+# composer.phar
+## remove in production!
+# composer.lock
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+.MERGE_MSG.swp
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+/vagrant.yaml
+/frontend/web/index.php
+/api/web/index.php
+/frontend/web/.htaccess
+/backend/web/.htaccess
+/api/web/.htaccess
+/.htaccess
